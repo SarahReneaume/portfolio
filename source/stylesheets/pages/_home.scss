@@ -7,14 +7,14 @@ body{
   text-align : center;
   justify-content: center;
   font-family: 'Open Sans', sans-serif;
-  font-size: 30px;
+  font-size: 25px;
   position: relative;
   line-height: 50px;
 }
 
 .id-text{
-  padding: 15vh 150px;
-  height: 80%;
+  padding: 80px 15vh 150px 15vh;
+  height: 95%;
 }
 
 // Colors for alphabet iteration
@@ -23,8 +23,8 @@ body{
   text-align: center;
   justify-content: center;
   font-family:'Space Mono', monospace;
-  padding : 50px 0;
-  font-size: 50px;
+  padding : 40px 0;
+  font-size: 45px;
 
   .color-orange{
     color: #fe705b;
@@ -70,10 +70,15 @@ a {
  text-align: center;
  .fa{
   padding: 0 10px;
+  text-decoration: none;
   &:hover {
     color: #efa505;
   }
  }
+}
+.fa-arrow-down{
+    color: #efa505;
+
 }
 .fa-linkedin-square{
     color: #00ADB5;
@@ -84,3 +89,5 @@ a {
 .fa-twitter{
     color: #1bc3f3;
  }
+
+
