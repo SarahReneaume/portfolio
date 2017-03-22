@@ -1,0 +1,86 @@
+body{
+  background-color: white;
+  color: #444F5A ;
+  height: 100vh;
+  flex-direction : column;
+  display: flex;
+  text-align : center;
+  justify-content: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 30px;
+  position: relative;
+  line-height: 50px;
+}
+
+.id-text{
+  padding: 15vh 150px;
+  height: 80%;
+}
+
+// Colors for alphabet iteration
+.name{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  font-family:'Space Mono', monospace;
+  padding : 50px 0;
+  font-size: 50px;
+
+  .color-orange{
+    color: #fe705b;
+  }
+  .color-yellow{
+    color: #efa505;
+  }
+  .color-pink{
+    color: #f7286b;
+  }
+  .color-blue{
+    color: #1bc3f3;
+  }
+  .color-purple{
+    color: #8970fe;
+  }
+   .color-green{
+    color: #00ADB5;
+  }
+}
+
+
+// Links in text
+a {
+  text-decoration: none;
+  font-family:'Space Mono', monospace;
+  color: #00ADB5;
+}
+.touchplan-link:hover{
+  color: #fe705b;
+}
+.le-wagon-link:hover{
+  color: #f7286b;
+}
+.email-link:hover{
+  color: #8970fe
+}
+
+// Bottom icons : social media
+.bottom-note{
+ height: 20%;
+ font-size : 30px;
+ text-align: center;
+ .fa{
+  padding: 0 10px;
+  &:hover {
+    color: #efa505;
+  }
+ }
+}
+.fa-linkedin-square{
+    color: #00ADB5;
+  }
+.fa-instagram{
+    color: #f7286b;
+  }
+.fa-twitter{
+    color: #1bc3f3;
+ }

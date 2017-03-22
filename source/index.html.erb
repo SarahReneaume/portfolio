@@ -1,10 +1,30 @@
----
-title: Le Wagon Middleman boilerplate
----
+<div class="id-text">
+  <div class="name">
+    <% first_name_letters = ['S','a','r','a','h'] %>
+    <% colors = ['orange','yellow','pink','blue', 'green', 'purple'] %>
+    <% first_name_letters.each do |letter| %>
+        <div class="color-<%=colors.sample%>"><%=letter%></div>
+    <% end %>
 
-<div class="welcome text-center padded">
-  <h1>Welcome to Middleman</h1>
-  <p class="doc">
-    <%= link_to "Read Online Documentation", "http://middlemanapp.com/" %>
-  </p>
+    <div> &nbsp; </div>
+
+    <% last_name_letters = ['R','e','n','e','a','u','m','e'] %>
+    <% last_name_letters.each do |letter| %>
+      <div class="color-<%=colors.sample%>"><%=letter%></div>
+    <% end %>
+  </div>
+
+  <div>Curious UI/UX Designer <%= link_to '@Touchplan.io', 'http://www.touchplan.io/', class:"touchplan-link", target: :_blank %>.</div>
+  <div>I recently moved back from Boston to Paris <br> & I just completed a 9-weeks coding bootcamp <%= link_to '@Le Wagon', 'http://www.lewagon.com/',class:"le-wagon-link",  target: :_blank %>.</div>
+  <div> I am now looking for new projects. Curious? <%= link_to 'Let\'s talk!', "mailto:sarah.reneaume@gmail.com", class:"email-link", target: :_blank %>
+  </div>
+
 </div>
+
+<div class="bottom-note">
+  <%= link_to "", "https://www.linkedin.com/in/sarah-leli%C3%A8vre-reneaume-81268456", class:"fa fa-linkedin-square", target: :_blank%>
+  <%= link_to "", "https://www.instagram.com/sarah_whistle/?hl=en", class:"fa fa-instagram", target: :_blank%>
+  <%= link_to "", "https://twitter.com/sarah_reneaume", class:"fa fa-twitter", target: :_blank%>
+</div>
+
+
