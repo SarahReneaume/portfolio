@@ -7,6 +7,7 @@ body{
   text-align : center;
   justify-content: center;
   font-family: 'Open Sans', sans-serif;
+  font-weight:400;
   font-size: 25px;
   position: relative;
   line-height: 50px;
@@ -23,7 +24,7 @@ body{
   text-align: center;
   justify-content: center;
   font-family:'Space Mono', monospace;
-  padding : 40px 0;
+  padding : 20px 0 50px 0;
   font-size: 45px;
 
   .color-orange{
@@ -46,7 +47,9 @@ body{
   }
 }
 
-
+.highlight{
+  font-weight: 600;
+}
 // Links in text
 a {
   text-decoration: none;
@@ -55,19 +58,27 @@ a {
 }
 .touchplan-link:hover{
   color: #fe705b;
+  text-decoration:none;
 }
 .le-wagon-link:hover{
   color: #f7286b;
+  text-decoration:none;
+}
+.startup-inst-link:hover{
+  color: #efa505;
+  text-decoration:none;
 }
 .email-link:hover{
-  color: #8970fe
+  color: #8970fe;
+  text-decoration:none;
 }
 
 // Bottom icons : social media
 .bottom-note{
  height: 20%;
- font-size : 30px;
+ font-size : 25px;
  text-align: center;
+ padding-bottom: 20px;
  .fa{
   padding: 0 10px;
   text-decoration: none;
@@ -76,11 +87,10 @@ a {
   }
  }
 }
-.fa-arrow-down{
-    color: #efa505;
-
+.fa-behance{
+    color: #fe705b;
 }
-.fa-linkedin-square{
+.fa-linkedin{
     color: #00ADB5;
   }
 .fa-instagram{
