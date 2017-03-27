@@ -1,23 +1,28 @@
 <div class="id-text">
 
   <div class="name">
-    <% first_name_letters = ['S','a','r','a','h'] %>
-    <% colors = ['orange','yellow','pink','blue', 'green', 'purple'] %>
-    <% first_name_letters.each do |letter| %>
-        <div class="color-<%=colors.sample%>"><%=letter%></div>
-    <% end %>
+        <div class="color-yellow">S</div>
+        <div class="color-blue">a</div>
+        <div class="color-pink">r</div>
+        <div class="color-purple">a</div>
+        <div class="color-pink">h</div>
 
     <div> &nbsp; </div>
 
-    <% last_name_letters = ['R','e','n','e','a','u','m','e'] %>
-    <% last_name_letters.each do |letter| %>
-      <div class="color-<%=colors.sample%>"><%=letter%></div>
-    <% end %>
+      <div class="color-purple">R</div>
+      <div class="color-green">e</div>
+      <div class="color-pink">n</div>
+      <div class="color-yellow">e</div>
+      <div class="color-blue">a</div>
+      <div class="color-orange">u</div>
+      <div class="color-green">m</div>
+      <div class="color-pink">e</div>
     <br>
   </div>
   <div class="city">Paris, France</div>
 
-<div>Hello !</div>
+
+  <div> Hello !</div>
   <div>I am a <span class="highlight"> Product Designer that codes</span> and <span class="highlight">User Experience</span> is my main focus.</div>
 
   <div>I work <%= link_to '@Touchplan.io', 'http://www.touchplan.io/', class:"touchplan-link", target: :_blank %> and I teach workshops at places like <%= link_to '@StartupInstitute', 'https://www.startupinstitute.com/', class:"startup-inst-link", target: :_blank %></div>

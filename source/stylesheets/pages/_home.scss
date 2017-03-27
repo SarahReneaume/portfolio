@@ -14,7 +14,7 @@ body{
 }
 
 .id-text{
-  padding: 40px 15vh 100px 15vh;
+  padding: 40px 15vh 40px 15vh;
   height: 95%;
 }
 
@@ -48,9 +48,13 @@ body{
 }
 
 .city{
-  font-size: 20px;
   padding-bottom: 60px;
+  font-size: 20px;
   font-family: 'Space Mono', monospace;
+}
+
+.greeting{
+font-size: 30px;
 }
 
 .highlight{
