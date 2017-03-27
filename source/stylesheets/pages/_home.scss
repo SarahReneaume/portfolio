@@ -14,7 +14,7 @@ body{
 }
 
 .id-text{
-  padding: 80px 15vh 150px 15vh;
+  padding: 40px 15vh 100px 15vh;
   height: 95%;
 }
 
@@ -24,7 +24,7 @@ body{
   text-align: center;
   justify-content: center;
   font-family:'Space Mono', monospace;
-  padding : 20px 0 50px 0;
+  padding : 20px 0 10px 0;
   font-size: 45px;
 
   .color-orange{
@@ -45,6 +45,12 @@ body{
    .color-green{
     color: #00ADB5;
   }
+}
+
+.city{
+  font-size: 20px;
+  padding-bottom: 60px;
+  font-family: 'Space Mono', monospace;
 }
 
 .highlight{
@@ -75,7 +81,7 @@ a {
 
 // Bottom icons : social media
 .bottom-note{
- height: 20%;
+ height: 10%;
  font-size : 25px;
  text-align: center;
  padding-bottom: 20px;

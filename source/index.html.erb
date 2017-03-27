@@ -13,10 +13,12 @@
     <% last_name_letters.each do |letter| %>
       <div class="color-<%=colors.sample%>"><%=letter%></div>
     <% end %>
+    <br>
   </div>
+  <div class="city">Paris, France</div>
 
 <div>Hello !</div>
-  <div>I am a <span class="highlight"> Product Designer</span> that codes and <span class="highlight">User Experience</span> is my main focus.</div>
+  <div>I am a <span class="highlight"> Product Designer that codes</span> and <span class="highlight">User Experience</span> is my main focus.</div>
 
   <div>I work <%= link_to '@Touchplan.io', 'http://www.touchplan.io/', class:"touchplan-link", target: :_blank %> and I teach workshops at places like <%= link_to '@StartupInstitute', 'https://www.startupinstitute.com/', class:"startup-inst-link", target: :_blank %></div>
 
@@ -29,6 +31,8 @@
 </div>
 
 <div class="bottom-note">
+
+
   <%= link_to "", "https://www.behance.net/sarah-reneaume", class:"fa fa-behance", target: :_blank%>
   <%= link_to "", "https://www.linkedin.com/in/sarah-leli%C3%A8vre-reneaume-81268456", class:"fa fa-linkedin", target: :_blank%>
   <%= link_to "", "https://www.instagram.com/sarah_whistle/?hl=en", class:"fa fa-instagram", target: :_blank%>
