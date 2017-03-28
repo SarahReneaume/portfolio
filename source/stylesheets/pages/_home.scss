@@ -1,3 +1,21 @@
+// #anim {
+// width: 100%;
+// height: 100%;
+// background: url(../images/test.png) repeat-y;
+// -webkit-animation: backgroundScroll 20s linear infinite;
+// animation: backgroundScroll 20s linear infinite;
+// }
+
+// @-webkit-keyframes backgroundScroll {
+// from {background-position: 0 0;}
+// to {background-position: -400px 0;}
+// }
+
+// @keyframes backgroundScroll {
+// from {background-position: 0 0;}
+// to {background-position: -400px 0;}
+// }
+
 body{
   background-color: white;
   color: #444F5A ;
@@ -10,78 +28,85 @@ body{
   font-weight:400;
   font-size: 25px;
   position: relative;
-  line-height: 50px;
+  line-height: 1.8
 }
 
 .id-text{
-  padding: 40px 15vh 40px 15vh;
-  height: 95%;
-}
-
-// Colors for alphabet iteration
-.name{
+  padding: 0 10vh;
+  height: 90%;
+  flex-direction : column;
   display: flex;
-  text-align: center;
+  text-align : center;
   justify-content: center;
-  font-family:'Space Mono', monospace;
-  padding : 20px 0 10px 0;
-  font-size: 45px;
 
-  .color-orange{
-    color: #fe705b;
+  .title{
+    height: 25%;
+    // Colors for alphabet iteration
+    .name{
+      display: flex;
+      text-align: center;
+      justify-content: center;
+      font-family:'Space Mono', monospace;
+      font-size: 40px;
+
+      .color-orange{
+        color: #fe705b;
+      }
+      .color-yellow{
+        color: #efa505;
+      }
+      .color-pink{
+        color: #f7286b;
+      }
+      .color-blue{
+        color: #1bc3f3;
+      }
+      .color-purple{
+        color: #8970fe;
+      }
+       .color-green{
+        color: #00ADB5;
+      }
+    }
+
+    .city{
+      font-size: 20px;
+      margin-bottom: 50px;
+      font-family: 'Space Mono', monospace;
+    }
   }
-  .color-yellow{
-    color: #efa505;
-  }
-  .color-pink{
-    color: #f7286b;
-  }
-  .color-blue{
-    color: #1bc3f3;
-  }
-  .color-purple{
-    color: #8970fe;
-  }
-   .color-green{
-    color: #00ADB5;
+
+  .job-text{
+     height: auto;
+
+    .highlight{
+      font-weight: 600;
+    }
+    // Links in text
+    a {
+      text-decoration: none;
+      font-family:'Space Mono', monospace;
+      color: #00ADB5;
+    }
+    .touchplan-link:hover{
+      color: #fe705b;
+      text-decoration:none;
+    }
+    .le-wagon-link:hover{
+      color: #f7286b;
+      text-decoration:none;
+    }
+    .startup-inst-link:hover{
+      color: #efa505;
+      text-decoration:none;
+    }
+    .email-link:hover{
+      color: #8970fe;
+      text-decoration:none;
+    }
   }
 }
 
-.city{
-  padding-bottom: 60px;
-  font-size: 20px;
-  font-family: 'Space Mono', monospace;
-}
-
-.greeting{
-font-size: 30px;
-}
-
-.highlight{
-  font-weight: 600;
-}
-// Links in text
-a {
-  text-decoration: none;
-  font-family:'Space Mono', monospace;
-  color: #00ADB5;
-}
-.touchplan-link:hover{
-  color: #fe705b;
-  text-decoration:none;
-}
-.le-wagon-link:hover{
-  color: #f7286b;
-  text-decoration:none;
-}
-.startup-inst-link:hover{
-  color: #efa505;
-  text-decoration:none;
-}
-.email-link:hover{
-  color: #8970fe;
-  text-decoration:none;
-}
 
 // Bottom icons : social media
 .bottom-note{
@@ -96,18 +121,52 @@ a {
     color: #efa505;
   }
  }
-}
-.fa-behance{
-    color: #fe705b;
-}
-.fa-linkedin{
-    color: #00ADB5;
+  .fa-behance{
+      color: #fe705b;
   }
-.fa-instagram{
-    color: #f7286b;
-  }
-.fa-twitter{
-    color: #1bc3f3;
+  .fa-linkedin{
+      color: #00ADB5;
+    }
+  .fa-instagram{
+      color: #f7286b;
+    }
+  .fa-twitter{
+      color: #1bc3f3;
+   }
  }
+
+ // Responsivness
+
+  // Mobile format
+  @media (max-width: 480px) {
+    body{
+    font-size: 14px;
+    }
+    .color-yellow, .color-purple, .color-green, .color-orange, .color-pink, .color-blue{
+    font-size:30px;
+      }
+
+    .city{
+      font-size: 10px;
+      margin-bottom: 10px;
+      }
+    }
+
+  // Tablet format
+  @media only screen and (min-width: 481px) and (max-width: 1024px){
+    body{
+    font-size: 20px;
+     }
+
+    .color-yellow, .color-purple, .color-green, .color-orange, .color-pink, .color-blue{
+    font-size: 40px;
+      }
+
+    .city{
+      font-size: 15px;
+      margin-bottom: 10px;
+      }
+    }
+
 
 
