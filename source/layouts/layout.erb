@@ -13,7 +13,10 @@
 
     <!-- Use title if it's in the page YAML frontmatter -->
      <title><%= current_page.data.title || "Sarah Reneaume | Product Designer " %></title>
-    <meta name="description" content="<%= "Sarah is an experienced Product Designer that codes, and has a strong UX focus. She's helping startups to build smart, simple and beautiful products." %>">
+    <meta name="description" content="<%= "Sarah is an experienced Product Designer that codes and has a strong focus in UX. She is helping startups to build smart, simple and beautiful products." %>">
+     <meta name="image" content="<%= "../images/meta.png" %>">
+    <meta name="keywords" content="<%= "UX, UI, webdesign, webdeveloppeur design, startup" %>">
+
      <%=favicon_tag 'favicon.png'%>
 
     <%= stylesheet_link_tag "all" %>
