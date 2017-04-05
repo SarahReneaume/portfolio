@@ -2,20 +2,19 @@
 <html>
   <head>
     <meta charset="utf-8">
-
+<!--     meta inspi Tim -->
     <!-- Always force latest IE rendering engine or request Chrome Frame -->
     <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- For Bootstrap responsiveness -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Raleway:400,600|Space+Mono" rel="stylesheet">
     <script src="https://use.fontawesome.com/92996b67ce.js"></script>
 
     <!-- Use title if it's in the page YAML frontmatter -->
-    <title><%= current_page.data.title || "Sarah's portfolio" %></title>
+     <title><%= current_page.data.title || "Sarah Reneaume | Product Designer " %></title>
+    <meta name="description" content="<%= "Sarah is an experienced Product Designer that codes, and has a strong UX focus. She's helping startups to build smart, simple and beautiful products." %>">
      <%=favicon_tag 'favicon.png'%>
-
 
     <%= stylesheet_link_tag "all" %>
     <%= javascript_include_tag  "all" %>
